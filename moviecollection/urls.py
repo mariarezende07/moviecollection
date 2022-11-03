@@ -18,5 +18,6 @@ from django.urls import include, path # modificar esta linha
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('staticpages.urls'))
+    path('', include('staticpages.urls')),
+    path('movies/', include('movies.urls')),
 ]
