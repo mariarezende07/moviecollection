@@ -1,1 +1,2 @@
-web: gunicorn moviecollection.wsgi
+web: gunicorn moviesite.wsgi
+release: python manage.py migrate
